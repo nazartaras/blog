@@ -2,7 +2,8 @@
     max-width: 230px;
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
+    padding: 10px;
 }
 
 .author-photo {
@@ -13,11 +14,17 @@
     text-align: center;
 }
 
+.author-name {
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
 .subscribe {
     margin-top: 20px;
     display: grid;
     grid-template-rows: 3;
     grid-gap: 10px;
+    justify-content: center;
 }
 
 .btn-subscribe {
@@ -134,4 +141,10 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+@media (max-width:750px) {
+    .tags-block {
+        border: none;
+    }
 }

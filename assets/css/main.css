@@ -58,6 +58,7 @@ footer {
 
 .small-aside {
     display: none;
+    background-color: #F9FBB2;
 }
 
 ul {
@@ -181,7 +182,32 @@ ul li .mail:hover {
 }
 
 @media (max-width:750px) {
+    #root {
+        grid-template-rows: repeat(5, minmax(100px, max-content));
+    }
     #menuToggle {
         display: block;
+    }
+    .small-aside-rest,
+    .small-aside-author {
+        display: block;
+        grid-column: 1/-1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .small-aside-author {
+        grid-row: 2;
+    }
+    .small-aside-rest {
+        grid-row: 4;
+    }
+    .big-aside {
+        display: none;
+    }
+    .main-content {
+        grid-column: 1/-1;
+        grid-row: 3;
     }
 }
