@@ -184,6 +184,7 @@ ul li .mail:hover {
 @media (max-width:750px) {
     #root {
         grid-template-rows: repeat(5, minmax(100px, max-content));
+        grid-template-columns: 1fr;
     }
     #menuToggle {
         display: block;
