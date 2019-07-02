@@ -1,0 +1,53 @@
+.logo {
+    height: 200px;
+    min-height: 100px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header ul li {
+    float: left;
+    margin: 10px;
+}
+
+header ul.socials li {
+    padding: 10px;
+}
+
+header ul li .insta:hover {
+    color: #ec1354;
+    cursor: pointer;
+}
+
+header ul li .face:hover {
+    color: #3b5998;
+    cursor: pointer;
+}
+
+header ul li .mail:hover {
+    color: red;
+    cursor: pointer;
+}
+
+header ul li a {
+    color: black;
+}
+
+header ul li.search {
+    margin-right: 70px;
+    cursor: pointer;
+}
+
+header ul.page-nav li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

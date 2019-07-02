@@ -1,0 +1,164 @@
+.author-info {
+    max-width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.author-photo {
+    max-width: 230px;
+}
+
+.author-description {
+    text-align: center;
+}
+
+.social-icons {
+    list-style-type: none;
+}
+
+.social-icons li {
+    float: left;
+    margin: 10px;
+}
+
+.social-icons li {
+    padding: 10px;
+}
+
+.social-icons li .insta:hover {
+    color: #ec1354;
+    cursor: pointer;
+}
+
+.social-icons li .face:hover {
+    color: #3b5998;
+    cursor: pointer;
+}
+
+.social-icons li .mail:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.subscribe {
+    margin-top: 20px;
+    display: grid;
+    grid-template-rows: 3;
+    grid-gap: 10px;
+}
+
+.btn-subscribe {
+    display: block;
+    background-color: #E3E9C2;
+    border: none;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.btn-subscribe:focus {
+    outline: none;
+}
+
+.btn-subscribe:hover {
+    cursor: pointer;
+    transform: scale(1.05)
+}
+
+.input-name,
+.input-email,
+.input-search {
+    max-width: 230px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+}
+
+.input-search {
+    max-width: 80%;
+}
+
+.input-name:focus,
+.input-email:focus,
+.input-search:focus {
+    border: 1px solid grey;
+    outline: none;
+}
+
+.search-block {
+    margin-top: 20px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(50px, max-content));
+}
+
+.search-block .search-icon {
+    font-size: 18px;
+    padding: 5px;
+    display: block;
+}
+
+.search-block .search-icon:hover {
+    cursor: pointer;
+}
+
+.tags-block {
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.tags-block a {
+    text-decoration: none;
+    color: #E3E9C2;
+    border: 1px solid rgba(42, 44, 44, 0.603);
+    padding: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: #7C6354;
+}
+
+.tags-block a:hover {
+    box-shadow: 2px 2px black;
+    transform: scale(1.1);
+}
+
+.comment-block {
+    margin-top: 20px;
+}
+
+.comment {
+    border: 1px solid black;
+    display: flex;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.comment-image {
+    width: 50px;
+}
+
+.comment-info-wrp {
+    margin-left: 5px;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.comment-author {
+    border-bottom: 1px solid black;
+}
+
+.comment-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
