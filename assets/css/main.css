@@ -26,6 +26,10 @@ header {
 }
 
 footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
     background-color: #F8FCDA;
     grid-column: 1/-1;
 }
@@ -53,4 +57,32 @@ footer {
 
 .small-aside {
     display: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    float: left;
+    margin: 10px;
+}
+
+ul.socials li {
+    padding: 10px;
+}
+
+ul li .insta:hover {
+    color: #ec1354;
+    cursor: pointer;
+}
+
+ul li .face:hover {
+    color: #3b5998;
+    cursor: pointer;
+}
+
+ul li .mail:hover {
+    color: red;
+    cursor: pointer;
 }

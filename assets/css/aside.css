@@ -13,34 +13,6 @@
     text-align: center;
 }
 
-.social-icons {
-    list-style-type: none;
-}
-
-.social-icons li {
-    float: left;
-    margin: 10px;
-}
-
-.social-icons li {
-    padding: 10px;
-}
-
-.social-icons li .insta:hover {
-    color: #ec1354;
-    cursor: pointer;
-}
-
-.social-icons li .face:hover {
-    color: #3b5998;
-    cursor: pointer;
-}
-
-.social-icons li .mail:hover {
-    color: red;
-    cursor: pointer;
-}
-
 .subscribe {
     margin-top: 20px;
     display: grid;
