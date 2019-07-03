@@ -192,14 +192,15 @@ ul li .mail:hover {
     transform: translate(15%, 0);
 }
 
-@media (max-width:750px) {
+@media (max-width:700px) {
     #root {
         grid:
-        "header"
-        "author-side"
-        "content"
-        "rest-side"
-        "footer"
+        "header header"
+        "author-side author-side"
+        "content content"
+        "rest-side rest-side"
+        "footer footer"
+        ;
     }
     #menuToggle {
         display: block;
@@ -216,6 +217,9 @@ ul li .mail:hover {
     }
     .rest-info {
         grid-area:rest-side;
+    }
+    .big-aside{
+        display: none;
     }
 
 }

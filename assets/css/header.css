@@ -28,7 +28,7 @@ header #search-small {
     display: none;
 }
 
-@media (max-width:750px) {
+@media (max-width:700px) {
     header .menu {
         display: none;
     }
