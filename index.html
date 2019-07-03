@@ -1,293 +1,298 @@
-<!DOCTYPE html>
-<html>
+    <!DOCTYPE html>
+    <html>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Personal blog</title>
-    <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="stylesheet" href="./assets/css/header.css">
-    <link rel="stylesheet" href="./assets/css/content.css">
-    <link rel="stylesheet" href="./assets/css/aside.css">
-    <link rel="stylesheet" href="./assets/css/footer.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Personal blog</title>
+        <link rel="stylesheet" href="./assets/css/main.css">
+        <link rel="stylesheet" href="./assets/css/header.css">
+        <link rel="stylesheet" href="./assets/css/content.css">
+        <link rel="stylesheet" href="./assets/css/aside.css">
+        <link rel="stylesheet" href="./assets/css/footer.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    </head>
 
-<body>
-    <div id="root">
-        <header>
-            <div id="menuToggle">
-                <input type="checkbox">
-                <span></span>
-                <span></span>
-                <span></span>
-                <ul id="menu">
-                    <a href="#">
-                        <li>Home</li>
-                    </a>
-                    <a href="#">
-                        <li>About</li>
-                    </a>
-                    <a href="#">
-                        <li>Contact</li>
-                    </a>
-                </ul>
+    <body>
+        <div id="root">
+            <header>
+                <div id="menuToggle">
+                    <input type="checkbox">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="menu">
+                        <a href="#">
+                            <li>Home</li>
+                        </a>
+                        <a href="#author">
+                            <li>About</li>
+                        </a>
+                        <a href="#recepies">
+                            <li>Recepies</li>
+                        </a>
+                        <a href="#contac-info">
+                            <li>Contact</li>
+                        </a>
+                    </ul>
+                </div>
+                <object class="logo" type="image/svg+xml" data="assets/images/site-logo.svg"></object>
+                <div id="search-small"><i class="fas fa-search"></i>
+                </div>
+                <div class="menu">
+                    <ul class="socials">
+                        <li class="search"><i class="fas fa-search"></i></li>
+                        <li><i class="fab fa-facebook face"></i></li>
+                        <li><i class="fab fa-instagram insta"></i></li>
+                        <li><a href="mailto:tarasnazar93@gmail.com" rel="nofollow" class="mail"><i
+                                    class="fas fa-envelope mail"></i></a>
+                        </li>
+                    </ul>
+                    <ul class="page-nav">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+            </header>
+            <section class="section-info author-small-info" id="author">
+                <div class="author-info">
+                    <img class="author-photo" src="./assets/images/author.jpg" alt="blog author">
+                    <h2 class="author-name">Taras Nazar</h2>
+                    <p class="author-description">The best cookery blogger of all time. Famous for his easy and delicious recepies. Well known cooker all around the world.</p>
+                </div>
+            </section>
+            <main id="recepies" class="main-content">
+                <div class="post">
+                    <img class="post-img" src="./assets/images/burger.jpg" alt="burger">
+                    <div class="post-info">
+                        <h3 class="post-title">Mexican chicken burger</h3>
+                        <div class="post-author">by Taras Nazar</div>
+                        <div class="post-description">Ready in under 20 minutes, this burger with spiced chipotle chicken breast, in toasted brioche with guacamole, makes for a satisfying weeknight treat for one</div>
+                        <div class="post-statistic-wrp">
+                            <span class="post-time">23 hours ago</span>
+                            <div class="post-statistic">
+                                <span class="comments">
+                                    <i class="fas fa-comments"></i>
+                                    <span>520</span>
+                                </span>
+                                <span>
+                                    <i class="far fa-star"></i>
+                                    <span>10234</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <img class="post-img" src="./assets/images/baked_potato.jpg" alt="baked-potato">
+                    <div class="post-info">
+                        <h3 class="post-title">Baked chilli & jacket potatoes</h3>
+                        <div class="post-author">by Taras Nazar</div>
+                        <div class="post-description">Jacket potatoes and chilli are great comfort food when the nights draw in. Make ours in the week when you're short on time for a nutritious family dinner</div>
+                        <div class="post-statistic-wrp">
+                            <span class="post-time">2 days ago</span>
+                            <div class="post-statistic">
+                                <span class="comments">
+                                    <i class="fas fa-comments"></i>
+                                    <span>723</span>
+                                </span>
+                                <span>
+                                    <i class="far fa-star"></i>
+                                    <span>8945</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <img class="post-img" src="./assets/images/lamb_curry.jpg" alt="lamb-curry">
+                    <div class="post-info">
+                        <h3 class="post-title">Slow cooker lamb curry</h3>
+                        <div class="post-author">by Taras Nazar</div>
+                        <div class="post-description">Use the slow cooker to make this nutritious, easy curry and the lamb will melt in your mouth. You can batch cook and freeze the leftovers for another day</div>
+                        <div class="post-statistic-wrp">
+                            <span class="post-time">3 days ago</span>
+                            <div class="post-statistic">
+                                <span class="comments">
+                                    <i class="fas fa-comments"></i>
+                                    <span>542</span>
+                                </span>
+                                <span>
+                                    <i class="far fa-star"></i>
+                                    <span>8925</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <img class="post-img" src="./assets/images/crumble.jpg" alt="crumble">
+                    <div class="post-info">
+                        <h3 class="post-title">Apple & blackberry crumble</h3>
+                        <div class="post-author">by Taras Nazar</div>
+                        <div class="post-description">Pre-cook the crumble topping to avoid gluey, uncooked crumble and retain the texture of the fruit</div>
+                        <div class="post-statistic-wrp">
+                            <span class="post-time">4 days ago</span>
+                            <div class="post-statistic">
+                                <span class="comments">
+                                    <i class="fas fa-comments"></i>
+                                    <span>678</span>
+                                </span>
+                                <span>
+                                    <i class="far fa-star"></i>
+                                    <span>10203</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <img class="post-img" src="./assets/images/lasagne.jpg" alt="lasagne">
+                    <div class="post-info">
+                        <h3 class="post-title">Classic Italian lasagne</h3>
+                        <div class="post-author">by Taras Nazar</div>
+                        <div class="post-description">Authentic Italian lasagne recipe, with a creamy béchamel sauce and classic defined layers. Everyone's favourite family meal</div>
+                        <div class="post-statistic-wrp">
+                            <span class="post-time">5 days ago</span>
+                            <div class="post-statistic">
+                                <span class="comments">
+                                    <i class="fas fa-comments"></i>
+                                    <span>953</span>
+                                </span>
+                                <span>
+                                    <i class="far fa-star"></i>
+                                    <span>12347</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post">
+                    <img class="post-img" src="./assets/images/beef_stroganoff.jpg" alt="beef stroganoff">
+                    <div class="post-info">
+                        <h3 class="post-title">Beef stroganoff</h3>
+                        <div class="post-author">by Taras Nazar</div>
+                        <div class="post-description">Make a classic beef stroganoff with steak and mushrooms for a tasty midweek meal. Garnish with parsley and serve with pappardelle pasta or rice</div>
+                        <div class="post-statistic-wrp">
+                            <span class="post-time">6 days ago</span>
+                            <div class="post-statistic">
+                                <span class="comments">
+                                    <i class="fas fa-comments"></i>
+                                    <span>75123</span>
+                                </span>
+                                <span>
+                                    <i class="far fa-star"></i>
+                                    <span>2319819</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <aside class="big-aside">
+                <div class="author-info">
+                    <img class="author-photo" src="./assets/images/author.jpg" alt="blog author">
+                    <h2 class="author-name">Taras Nazar</h2>
+                    <p class="author-description">The best cookery blogger of all time. Famous for his easy and delicious recepies. Well known cooker all around the world.</p>
+                </div>
+                <div>
+                <div class="author-socials">
+                    <ul class="socials">
+                        <li><i class="fab fa-facebook face"></i></li>
+                        <li><i class="fab fa-instagram insta"></i></li>
+                        <li><i class="fas fa-envelope mail"></i></li>
+                    </ul>
+                </div>
+                <form class="subscribe">
+                    <input placeholder="Enter your name" type="text" class="input-name">
+                    <input placeholder="Enter your email" type="text" class="input-email">
+                    <button class="btn-subscribe" type="submit">Subscribe</button>
+                </form>
+                <div class="search-block">
+                    <input placeholder="Enter to search" typr="text" class="input-search">
+                    <i class="fas fa-search search-icon"></i>
+                </div>
+                <div class="tags-block">
+                    <a href="#">burger</a>
+                    <a href="#">taco</a>
+                    <a href="#">pasta</a>
+                    <a href="#">pizza</a>
+                    <a href="#">tasty food</a>
+                    <a href="#">healthy food</a>
+                    <a href="#">vegan</a>
+                </div>
+                <div class="comment-block">
+                    <div class="comment">
+                        <img src="./assets/images/trump.jpg" class="comment-image">
+                        <div class="comment-info-wrp">
+                            <div class="comment-author">Donald Trump</div>
+                            <div class="comment-text">The best food is here</div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <img src="./assets/images/ramsay.jpg" class="comment-image">
+                        <div class="comment-info-wrp">
+                            <div class="comment-author">Gordon Ramsay</div>
+                            <div class="comment-text">That's time for some fucking delicious food</div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <object class="logo" type="image/svg+xml" data="assets/images/site-logo.svg"></object>
-            <div id="search-small"><i class="fas fa-search"></i>
-            </div>
-            <div class="menu">
+            </aside>
+            <section class="section-info rest-info" id="contac-info">
+                <div class="author-socials">
+                    <ul class="socials">
+                        <li><i class="fab fa-facebook face"></i></li>
+                        <li><i class="fab fa-instagram insta"></i></li>
+                        <li><i class="fas fa-envelope mail"></i></li>
+                    </ul>
+                </div>
+                <form class="subscribe">
+                    <input placeholder="Enter your name" type="text" class="input-name">
+                    <input placeholder="Enter your email" type="text" class="input-email">
+                    <button class="btn-subscribe" type="submit">Subscribe</button>
+                </form>
+                <div class="search-block">
+                    <input placeholder="Enter to search" typr="text" class="input-search">
+                    <i class="fas fa-search search-icon"></i>
+                </div>
+                <div class="tags-block">
+                    <a href="#">burger</a>
+                    <a href="#">taco</a>
+                    <a href="#">pasta</a>
+                    <a href="#">pizza</a>
+                    <a href="#">tasty food</a>
+                    <a href="#">healthy food</a>
+                    <a href="#">vegan</a>
+                </div>
+                <div class="comment-block">
+                    <div class="comment">
+                        <img src="./assets/images/trump.jpg" class="comment-image">
+                        <div class="comment-info-wrp">
+                            <div class="comment-author">Donald Trump</div>
+                            <div class="comment-text">The best food is here</div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <img src="./assets/images/ramsay.jpg" class="comment-image">
+                        <div class="comment-info-wrp">
+                            <div class="comment-author">Gordon Ramsay</div>
+                            <div class="comment-text">That's time for some fucking delicious food</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <object class="footer-logo" type="image/svg+xml" data="assets/images/site-logo.svg"></object>
                 <ul class="socials">
-                    <li class="search"><i class="fas fa-search"></i></li>
                     <li><i class="fab fa-facebook face"></i></li>
                     <li><i class="fab fa-instagram insta"></i></li>
-                    <li><a href="mailto:tarasnazar93@gmail.com" rel="nofollow" class="mail"><i
-                                class="fas fa-envelope mail"></i></a>
-                    </li>
+                    <li><i class="fas fa-envelope mail"></i></li>
                 </ul>
-                <ul class="page-nav">
-                    <li><a>Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Contact</a></li>
-                </ul>
-            </div>
-        </header>
-        <aside class="small-aside small-aside-author">
-            <div class="author-info">
-                <img class="author-photo" src="./assets/images/author.jpg" alt="blog author">
-                <h2 class="author-name">Taras Nazar</h2>
-                <p class="author-description">The best cookery blogger of all time. Famous for his easy and delicious recepies. Well known cooker all around the world.</p>
-            </div>
-        </aside>
-        <div id="main" class="main-content">
-            <div class="post">
-                <img class="post-img" src="./assets/images/burger.jpg" alt="burger">
-                <div class="post-info">
-                    <h3 class="post-title">Mexican chicken burger</h3>
-                    <div class="post-author">by Taras Nazar</div>
-                    <div class="post-description">Ready in under 20 minutes, this burger with spiced chipotle chicken breast, in toasted brioche with guacamole, makes for a satisfying weeknight treat for one</div>
-                    <div class="post-statistic-wrp">
-                        <span class="post-time">10 minutes ago</span>
-                        <div class="post-statistic">
-                            <span class="comments">
-                                <i class="fas fa-comments"></i>
-                                <span>4</span>
-                            </span>
-                            <span>
-                                <i class="far fa-star"></i>
-                                <span>2</span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="post">
-                <img class="post-img" src="./assets/images/baked_potato.jpg" alt="baked-potato">
-                <div class="post-info">
-                    <h3 class="post-title">Baked chilli & jacket potatoes</h3>
-                    <div class="post-author">by Taras Nazar</div>
-                    <div class="post-description">Jacket potatoes and chilli are great comfort food when the nights draw in. Make ours in the week when you're short on time for a nutritious family dinner</div>
-                    <div class="post-statistic-wrp">
-                        <span class="post-time">10 minutes ago</span>
-                        <div class="post-statistic">
-                            <span class="comments">
-                                <i class="fas fa-comments"></i>
-                                <span>4</span>
-                            </span>
-                            <span>
-                                <i class="far fa-star"></i>
-                                <span>2</span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="post">
-                <img class="post-img" src="./assets/images/lamb_curry.jpg" alt="lamb-curry">
-                <div class="post-info">
-                    <h3 class="post-title">Slow cooker lamb curry</h3>
-                    <div class="post-author">by Taras Nazar</div>
-                    <div class="post-description">Use the slow cooker to make this nutritious, easy curry and the lamb will melt in your mouth. You can batch cook and freeze the leftovers for another day</div>
-                    <div class="post-statistic-wrp">
-                        <span class="post-time">10 minutes ago</span>
-                        <div class="post-statistic">
-                            <span class="comments">
-                                <i class="fas fa-comments"></i>
-                                <span>4</span>
-                            </span>
-                            <span>
-                                <i class="far fa-star"></i>
-                                <span>2</span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="post">
-                <img class="post-img" src="./assets/images/crumble.jpg" alt="crumble">
-                <div class="post-info">
-                    <h3 class="post-title">Apple & blackberry crumble</h3>
-                    <div class="post-author">by Taras Nazar</div>
-                    <div class="post-description">Pre-cook the crumble topping to avoid gluey, uncooked crumble and retain the texture of the fruit</div>
-                    <div class="post-statistic-wrp">
-                        <span class="post-time">10 minutes ago</span>
-                        <div class="post-statistic">
-                            <span class="comments">
-                                <i class="fas fa-comments"></i>
-                                <span>4</span>
-                            </span>
-                            <span>
-                                <i class="far fa-star"></i>
-                                <span>2</span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="post">
-                <img class="post-img" src="./assets/images/lasagne.jpg" alt="lasagne">
-                <div class="post-info">
-                    <h3 class="post-title">Classic Italian lasagne</h3>
-                    <div class="post-author">by Taras Nazar</div>
-                    <div class="post-description">Authentic Italian lasagne recipe, with a creamy béchamel sauce and classic defined layers. Everyone's favourite family meal</div>
-                    <div class="post-statistic-wrp">
-                        <span class="post-time">10 minutes ago</span>
-                        <div class="post-statistic">
-                            <span class="comments">
-                                <i class="fas fa-comments"></i>
-                                <span>4</span>
-                            </span>
-                            <span>
-                                <i class="far fa-star"></i>
-                                <span>2</span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="post">
-                <img class="post-img" src="./assets/images/beef_stroganoff.jpg" alt="beef stroganoff">
-                <div class="post-info">
-                    <h3 class="post-title">Beef stroganoff</h3>
-                    <div class="post-author">by Taras Nazar</div>
-                    <div class="post-description">Make a classic beef stroganoff with steak and mushrooms for a tasty midweek meal. Garnish with parsley and serve with pappardelle pasta or rice</div>
-                    <div class="post-statistic-wrp">
-                        <span class="post-time">10 minutes ago</span>
-                        <div class="post-statistic">
-                            <span class="comments">
-                                <i class="fas fa-comments"></i>
-                                <span>4</span>
-                            </span>
-                            <span>
-                                <i class="far fa-star"></i>
-                                <span>2</span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                <h3 class="copyright">Copyright &#169 2019 Taras Nazar food blog</h3>
+            </footer>
         </div>
-        <aside class="big-aside">
-            <div class="author-info">
-                <img class="author-photo" src="./assets/images/author.jpg" alt="blog author">
-                <h2 class="author-name">Taras Nazar</h2>
-                <p class="author-description">The best cookery blogger of all time. Famous for his easy and delicious recepies. Well known cooker all around the world.</p>
-            </div>
-            <div class="author-socials">
-                <ul class="socials">
-                    <li><i class="fab fa-facebook face"></i></li>
-                    <li><i class="fab fa-instagram insta"></i></li>
-                    <li><i class="fas fa-envelope mail"></i></li>
-                </ul>
-            </div>
-            <form class="subscribe">
-                <input placeholder="Enter your name" type="text" class="input-name">
-                <input placeholder="Enter your email" type="text" class="input-email">
-                <button class="btn-subscribe" type="submit">Subscribe</button>
-            </form>
-            <div class="search-block">
-                <input placeholder="Enter to search" typr="text" class="input-search">
-                <i class="fas fa-search search-icon"></i>
-            </div>
-            <div class="tags-block">
-                <a href="#">burger</a>
-                <a href="#">taco</a>
-                <a href="#">pasta</a>
-                <a href="#">pizza</a>
-                <a href="#">tasty food</a>
-                <a href="#">healthy food</a>
-                <a href="#">vegan</a>
-            </div>
-            <div class="comment-block">
-                <div class="comment">
-                    <img src="./assets/images/trump.jpg" class="comment-image">
-                    <div class="comment-info-wrp">
-                        <div class="comment-author">Donald Trump</div>
-                        <div class="comment-text">The best food is here</div>
-                    </div>
-                </div>
-                <div class="comment">
-                    <img src="./assets/images/ramsay.jpg" class="comment-image">
-                    <div class="comment-info-wrp">
-                        <div class="comment-author">Gordon Ramsay</div>
-                        <div class="comment-text">That's time for some fucking delicious food</div>
-                    </div>
-                </div>
-            </div>
-        </aside>
-        <aside class="small-aside small-aside-rest">
-            <div class="author-socials">
-                <ul class="socials">
-                    <li><i class="fab fa-facebook face"></i></li>
-                    <li><i class="fab fa-instagram insta"></i></li>
-                    <li><i class="fas fa-envelope mail"></i></li>
-                </ul>
-            </div>
-            <form class="subscribe">
-                <input placeholder="Enter your name" type="text" class="input-name">
-                <input placeholder="Enter your email" type="text" class="input-email">
-                <button class="btn-subscribe" type="submit">Subscribe</button>
-            </form>
-            <div class="search-block">
-                <input placeholder="Enter to search" typr="text" class="input-search">
-                <i class="fas fa-search search-icon"></i>
-            </div>
-            <div class="tags-block">
-                <a href="#">burger</a>
-                <a href="#">taco</a>
-                <a href="#">pasta</a>
-                <a href="#">pizza</a>
-                <a href="#">tasty food</a>
-                <a href="#">healthy food</a>
-                <a href="#">vegan</a>
-            </div>
-            <div class="comment-block">
-                <div class="comment">
-                    <img src="./assets/images/trump.jpg" class="comment-image">
-                    <div class="comment-info-wrp">
-                        <div class="comment-author">Donald Trump</div>
-                        <div class="comment-text">The best food is here</div>
-                    </div>
-                </div>
-                <div class="comment">
-                    <img src="./assets/images/ramsay.jpg" class="comment-image">
-                    <div class="comment-info-wrp">
-                        <div class="comment-author">Gordon Ramsay</div>
-                        <div class="comment-text">That's time for some fucking delicious food</div>
-                    </div>
-                </div>
-            </div>
-        </aside>
-        <footer>
-            <object class="footer-logo" type="image/svg+xml" data="assets/images/site-logo.svg"></object>
-            <ul class="socials">
-                <li><i class="fab fa-facebook face"></i></li>
-                <li><i class="fab fa-instagram insta"></i></li>
-                <li><i class="fas fa-envelope mail"></i></li>
-            </ul>
-            <h3 class="copyright">Copyright &#169 2019 Taras Nazar food blog</h3>
-        </footer>
-    </div>
-</body>
+    </body>
 
-</html>
+    </html>

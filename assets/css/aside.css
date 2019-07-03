@@ -10,6 +10,10 @@
     max-width: 230px;
 }
 
+.author-socials{
+    min-height: 74px;
+}
+
 .author-description {
     text-align: center;
 }
@@ -123,8 +127,12 @@
     max-width: 100%;
 }
 
+.comment:hover{
+    box-shadow: 2px 2px 10px black;
+    font-weight: bold;
+}
 .comment-image {
-    width: 50px;
+    max-width: 50px;
     max-height: 50px;
 }
 
